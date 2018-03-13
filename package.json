@@ -1,6 +1,6 @@
 {
   "name": "mobx-cookie",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description":
     "Syncs a cookie's value with a MobX observable, allowing observers to react to its changes.",
   "main": "lib/mobx-cookie.js",
@@ -20,8 +20,8 @@
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
-    "mobx": "^3.4.1",
-    "mobx-react": "^4.3.5",
+    "mobx": "^4.0.0",
+    "mobx-react": "^5.0.0",
     "parcel-bundler": "^1.4.1",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
@@ -32,7 +32,7 @@
     "moment": "^2.20.1"
   },
   "peerDependencies": {
-    "mobx": "^3.4.1"
+    "mobx": "^4.0.0"
   },
   "scripts": {
     "prettier": "prettier --config .prettierrc --write src/**/*.js",

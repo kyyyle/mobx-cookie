@@ -1,6 +1,6 @@
 import { action, extendObservable } from 'mobx'
 
-import Cookie from '../lib/mobx-cookie'
+import Cookie from '../src/mobx-cookie'
 
 class Store {
   constructor() {
